@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver="C:\\Git_Projects\\VOIS_Automation_Challenge\\browsersDrivers\chromedriver.exe" -jar selenium-server-4.5.3.jar node -hub http://192.168.1.7:4444/grid/register

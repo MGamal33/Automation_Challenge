@@ -49,8 +49,8 @@ public class SearchSizeTest {
         secondCount = webDriver.getGoogleSearchResultCount();
         System.out.println("First Count : " + firstCount + " , Second Count : " + secondCount);
         System.out.println("First test status : " + (firstCount == secondCount ? "Succeeded":"Failed"));
-//        Assert.assertEquals(firstCount,secondCount);
-        Assert.fail();
+        Assert.assertEquals(firstCount,secondCount);
+//        Assert.fail();
     }
 
     /**

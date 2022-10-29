@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 29 21:16:05 EET 2022</td>
+<td>Started on:</td><td>Sat Oct 29 21:21:21 EET 2022</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7386 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7171 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestClasses.SearchSizeTest.firstTest()'><b>firstTest</b><br>Test class: TestClasses.SearchSizeTest<br/>
-<a href="#Output-912966811" onClick='toggleBox("Output-912966811", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-343345308" onClick='toggleBox("Output-343345308", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-912966811" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-912966811">
+<a href="#Output-343345308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-343345308">
 got google search bar and searched for : Vodafone<br><br/>
 scrolled down to the end of the page successfully<br><br/>
 clicked next button successfully<br><br/>
@@ -91,15 +91,19 @@ got results shown of the page<br><br/>
 <img src='failureScreenshots\firstTest.jpg' height='400' width='400'/><br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: null
-	at TestClasses.SearchSizeTest.firstTest(SearchSizeTest.java:53)
+<td><div><pre>java.lang.AssertionError: expected [9] but found [10]
+	at TestClasses.SearchSizeTest.firstTest(SearchSizeTest.java:52)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace912966811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace912966811'><pre>java.lang.AssertionError: null
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace343345308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace343345308'><pre>java.lang.AssertionError: expected [9] but found [10]
 	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at TestClasses.SearchSizeTest.firstTest(SearchSizeTest.java:53)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at TestClasses.SearchSizeTest.firstTest(SearchSizeTest.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -126,7 +130,7 @@ got results shown of the page<br><br/>
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>4</td>
-<td>TestClasses.SearchSizeTest@103f852</td></tr>
+<td>TestClasses.SearchSizeTest@16022d9d</td></tr>
 </table><p>
 </body>
 </html>
