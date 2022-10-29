@@ -1,0 +1,15 @@
+{
+  "browser": "firefox",
+  "chrome": {
+    "DriverProperty": "webdriver.chrome.driver",
+    "driverPath": "browsersDrivers\\chromedriver.exe"
+  },
+  "edge": {
+    "DriverProperty": "webdriver.edge.driver",
+    "driverPath": "browsersDrivers\\msedgedriver.exe"
+  },
+  "firefox": {
+    "DriverProperty": "webdriver.gecko.driver",
+    "driverPath": "browsersDrivers\\geckodriver.exe"
+  }
+}

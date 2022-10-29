@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Reports.CustomReport"/>
+    <listener class-name="Reports.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="VOIS_Automation_Challenge(failed)">
+    <classes>
+      <class name="TestClasses.SearchSizeTest">
+        <methods>
+          <include name="terminate"/>
+          <include name="start"/>
+          <include name="firstTest"/>
+        </methods>
+      </class> <!-- TestClasses.SearchSizeTest -->
+    </classes>
+  </test> <!-- VOIS_Automation_Challenge(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

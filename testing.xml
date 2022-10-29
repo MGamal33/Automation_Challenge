@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <listeners>
+        <listener class-name = "Reports.CustomReport" />
+        <listener class-name="Reports.CustomListener" />
+    </listeners>
+
+    <test name="VOIS_Automation_Challenge" thread-count="5">
+        <classes>
+            <class name="TestClasses.SearchSizeTest"/>
+        </classes>
+    </test>
+</suite>
